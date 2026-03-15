@@ -43,3 +43,6 @@
 // ─── Layer 6: Persistence & Settings ────────────────────────────────────────
 #include "storage/DeautherStorage.h"   // SPIFFS data harvesting storage
 #include "settings/DeautherSettings.h" // EEPROM config storage
+
+// ─── Layer 7: Monitoring & Detection ────────────────────────────────────────
+#include "detector/DeautherDetector.h"
